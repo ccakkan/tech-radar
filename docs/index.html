@@ -32,7 +32,7 @@ radar_visualization({
   quadrants: [
     { name: "Languages & Frameworks" },
     { name: "Tools & Patterns" },
-    { name: "Datastores" },
+    { name: "Datastore" },
     { name: "Architecture" }
   ],
   rings: [
@@ -51,14 +51,50 @@ radar_visualization({
     {
         "quadrant": 3,
         "ring": 0,
-        "label": "Cloud Native",
+        "label": "Broker",
         "active": true,
         "moved": 0
     },
     {
         "quadrant": 3,
         "ring": 0,
-        "label": "Serverless / Azure Functions",
+        "label": "Event Driven",
+        "active": true,
+        "moved": 0
+    },
+
+    {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Layered",
+        "active": true,
+        "moved": 0
+    },
+    {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Service Oriënted",
+        "active": true,
+        "moved": 0
+    },
+    {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Domain Driven Design",
+        "active": true,
+        "moved": 0
+    },
+    {
+        "quadrant": 3,
+        "ring": 1,
+        "label": "Cloud Native",
+        "active": true,
+        "moved": 0
+    },
+    {
+        "quadrant": 3,
+        "ring": 1,
+        "label": "Serverless",
         "active": true,
         "moved": 0
     },
@@ -72,13 +108,19 @@ radar_visualization({
       {
         "quadrant": 3,
         "ring": 0,
-        "label": "Micro-Services",
+        "label": "MicroServices",
         "active": true
       },
       {
         "quadrant": 3,
         "ring": 0,
         "label": "Modular Monolithic",
+        "active": true
+      },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Monolithic",
         "active": true
       },
     // QUADRANT : Datastores (2)
@@ -89,6 +131,13 @@ radar_visualization({
         "label": "Azure Blob Storage",
         "active": true,
         "moved": 0
+      },
+      {
+          "quadrant": 2,
+          "ring": 2,
+          "label": "EventStoreDB",
+          "active": true,
+          "moved": 0
       },
       {
         "quadrant": 2,
@@ -120,7 +169,7 @@ radar_visualization({
       {
         "quadrant": 2,
         "ring": 0,
-        "label": "MongoDB",
+        "label": "MongoDB / CosmosDB",
         "active": true,
         "moved": 0
       },
@@ -133,7 +182,7 @@ radar_visualization({
       },
       {
         "quadrant": 2,
-        "ring": 3,
+        "ring": 0,
         "label": "Oracle DB",
         "active": true,
         "moved": 0
@@ -142,13 +191,6 @@ radar_visualization({
         "quadrant": 2,
         "ring": 0,
         "label": "Redis",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 2,
-        "ring": 3,
-        "label": "ZooKeeper",
         "active": true,
         "moved": 0
       },
@@ -163,21 +205,57 @@ radar_visualization({
       },
       {
         "quadrant": 1,
+        "ring": 0,
+        "label": "IntelliJ",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
         "ring": 3,
-        "label": "Hadoop",
+        "label": "CloudFoundry",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 3,
+        "label": "TKGI",
         "active": true,
         "moved": 0
       },
       {
         "quadrant": 1,
         "ring": 0,
-        "label": "Spark",
-        "active": true
+        "label": "Continuous Integration",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 1,
+        "label": "Continuous Delivery",
+        "active": true,
+        "moved": 0
       },
       {
         "quadrant": 1,
         "ring": 0,
+        "label": "Azure App Service",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 3,
         "label": "ActiveMQ",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "IBM MQ",
         "active": true,
         "moved": 0
       },
@@ -196,6 +274,74 @@ radar_visualization({
         "active": true,
         "moved": 0
       },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Strangler pattern",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Parallel run pattern",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Branch by abstraction",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Decorating Collaborator",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 2,
+        "label": "Event Sourcing",
+        "active": true
+      },
+      {
+        "quadrant": 1,
+        "ring": 2,
+        "label": "CQRS",
+        "active": true
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "TDD",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "BDD",
+        "active": true,
+        "moved": 0
+      },
+      {
+          "quadrant": 1,
+          "ring": 2,
+          "label": "Hasura",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 1,
+          "ring": 2,
+          "label": "GQL Mesh",
+          "active": true,
+          "moved": 0
+      },
 
     // QUADRANT : Languages & Frameworks (0)
     // RING: ADOPT (0), TRIAL (1) , ASSESS(2), HOLD(3)
@@ -205,6 +351,36 @@ radar_visualization({
         "label": "Clojure",
         "active": true,
         "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Spring Boot",
+        "active": true
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Maven",
+        "active": true
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Gradle",
+        "active": true
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Yarn",
+        "active": true
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "NPM",
+        "active": true
       },
       {
         "quadrant": 0,
@@ -254,6 +430,12 @@ radar_visualization({
         "label": "Angular",
         "active": true,
         "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 3,
+        "label": "IOnic",
+        "active": true
       },
       {
         "quadrant": 0,
