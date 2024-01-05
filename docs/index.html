@@ -28,7 +28,7 @@ radar_visualization({
     inactive: "#ddd"
   },
   title: "Flight Tech Radar",
-  date: "2023.02",
+  date: "2024.01",
   quadrants: [
     { name: "Languages & Frameworks" },
     { name: "Tools & Patterns" },
@@ -46,59 +46,59 @@ radar_visualization({
   // zoomed_quadrant: 0,
   //ENTRIES
   entries: [
-    // QUADRANT : Architecture (3)
-    // RING: ADOPT (0), TRIAL (1) , ASSESS(2), HOLD(3)
-    {
+      // QUADRANT : Architecture (3)
+      // RING: ADOPT (0), TRIAL (1) , ASSESS(2), HOLD(3)
+      {
         "quadrant": 3,
         "ring": 0,
         "label": "Broker",
         "active": true,
         "moved": 0
-    },
-    {
+      },
+      {
         "quadrant": 3,
         "ring": 0,
         "label": "Event Driven",
         "active": true,
         "moved": 0
-    },
+      },
 
-    {
+      {
         "quadrant": 3,
         "ring": 0,
         "label": "Layered",
         "active": true,
         "moved": 0
-    },
-    {
+      },
+      {
         "quadrant": 3,
         "ring": 0,
         "label": "Service Oriënted",
         "active": true,
         "moved": 0
-    },
-    {
+      },
+      {
         "quadrant": 3,
         "ring": 0,
         "label": "Domain Driven Design",
         "active": true,
         "moved": 0
-    },
-    {
+      },
+      {
         "quadrant": 3,
         "ring": 1,
         "label": "Cloud Native",
         "active": true,
         "moved": 0
-    },
-    {
+      },
+      {
         "quadrant": 3,
         "ring": 1,
         "label": "Serverless",
         "active": true,
         "moved": 0
-    },
-    {
+      },
+      {
         "quadrant": 3,
         "ring": 0,
         "label": "Events",
@@ -123,70 +123,98 @@ radar_visualization({
         "label": "Monolithic",
         "active": true
       },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Spark",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 3,
+        "label": "YARN",
+        "active": true,
+        "moved": 0
+      },
     // QUADRANT : Datastores (2)
     // RING: ADOPT (0), TRIAL (1) , ASSESS(2), HOLD(3)
-      {
-        "quadrant": 2,
-        "ring": 0,
-        "label": "Azure Blob Storage",
-        "active": true,
-        "moved": 0
-      },
-      {
-          "quadrant": 2,
-          "ring": 2,
-          "label": "EventStoreDB",
-          "active": true,
-          "moved": 0
-      },
-      {
-        "quadrant": 2,
-        "ring": 3,
-        "label": "Apache Cassandra",
-        "active": true
-      },
-      {
-        "quadrant": 2,
-        "ring": 3,
-        "label": "HBase",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 2,
-        "ring": 3,
-        "label": "Memcached",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 2,
-        "ring": 0,
-        "label": "PostgreSQL",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 2,
-        "ring": 0,
-        "label": "MongoDB / CosmosDB",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 2,
-        "ring": 3,
-        "label": "MySQL",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 2,
-        "ring": 0,
-        "label": "Oracle DB",
-        "active": true,
-        "moved": 0
-      },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "Azure Blob Storage",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 2,
+      "label": "EventStoreDB",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "Apache Cassandra",
+      "active": true
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "HBase",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "Memcached",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "PostgreSQL",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "MongoDB / CosmosDB",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "MySQL",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "Oracle DB",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "Redis",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "SAP HANA",
+      "active": true,
+      "moved": 0
+    },
       {
         "quadrant": 2,
         "ring": 0,
@@ -196,230 +224,252 @@ radar_visualization({
       },
       {
         "quadrant": 2,
-        "ring": 0,
-        "label": "SAP HANA",
-        "active": true,
-        "moved": 0
-      },
-    // QUADRANT : Tools & Patterns (1)
-    // RING: ADOPT (0), TRIAL (1) , ASSESS(2), HOLD(3)
-    {
-        "quadrant": 1,
-        "ring": 0,
-        "label": "Kafka",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 1,
-        "ring": 0,
-        "label": "IntelliJ",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 1,
         "ring": 3,
-        "label": "CloudFoundry",
+        "label": "ZooKeeper",
         "active": true,
         "moved": 0
       },
       {
-        "quadrant": 1,
-        "ring": 3,
-        "label": "TKGI",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 1,
+        "quadrant": 2,
         "ring": 0,
-        "label": "Continuous Integration",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 1,
-        "ring": 1,
-        "label": "Continuous Delivery",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 1,
-        "ring": 0,
-        "label": "Azure App Service",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 1,
-        "ring": 3,
-        "label": "ActiveMQ",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 1,
-        "ring": 0,
-        "label": "IBM MQ",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 1,
-        "ring": 0,
-        "label": "Docker",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 1,
-        "ring": 0,
-        "label": "Kubernetes",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 1,
-        "ring": 0,
-        "label": "Strangler pattern",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 1,
-        "ring": 0,
-        "label": "Parallel run pattern",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 1,
-        "ring": 0,
-        "label": "Branch by abstraction",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 1,
-        "ring": 0,
-        "label": "Decorating Collaborator",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 1,
-        "ring": 2,
-        "label": "Event Sourcing",
-        "active": true
-      },
-      {
-        "quadrant": 1,
-        "ring": 2,
-        "label": "CQRS",
-        "active": true
-      },
-      {
-        "quadrant": 1,
-        "ring": 0,
-        "label": "TDD",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 1,
-        "ring": 0,
-        "label": "BDD",
-        "active": true,
-        "moved": 0
-      },
-      {
-          "quadrant": 1,
-          "ring": 2,
-          "label": "Hasura",
-          "active": true,
-          "moved": 0
-      },
-      {
-          "quadrant": 1,
-          "ring": 2,
-          "label": "GQL Mesh",
-          "active": true,
-          "moved": 0
-      },
-      {
-          "quadrant": 1,
-          "ring": 3,
-          "label": "JAS",
-          "active": true,
-          "moved": 0
-      },
-      {
-          "quadrant": 1,
-          "ring": 3,
-          "label": "JAS Batches",
-          "active": true,
-          "moved": 0
-      },
-      {
-        "quadrant": 1,
-        "ring": 0,
-        "label": "REST",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 1,
-        "ring": 3,
-        "label": "SOAP",
+        "label": "etcd",
         "active": true,
         "moved": 0
       },
 
+
+    // QUADRANT : Tools & Patterns (1)
+    // RING: ADOPT (0), TRIAL (1) , ASSESS(2), HOLD(3)
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Kafka",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "IntelliJ",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 3,
+      "label": "CloudFoundry",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 3,
+      "label": "TKGI",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Continuous Integration",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Continuous Delivery",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Azure App Service",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 3,
+      "label": "ActiveMQ",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "IBM MQ",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Docker",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Kubernetes",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Strangler pattern",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Parallel run pattern",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Branch by abstraction",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Decorating Collaborator",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "Event Sourcing",
+      "active": true
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "CQRS",
+      "active": true
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "TDD",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "BDD",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "Hasura",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "GQL Mesh",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 3,
+      "label": "JAS",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 3,
+      "label": "JAS Batches",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "REST",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 3,
+      "label": "SOAP",
+      "active": true,
+      "moved": 0
+    },
+
+
     // QUADRANT : Languages & Frameworks (0)
     // RING: ADOPT (0), TRIAL (1) , ASSESS(2), HOLD(3)
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Java",
+      "link": "https://engineering.zalando.com/tags/java.html",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "JavaScript",
+      "link": "https://engineering.zalando.com/tags/javascript.html",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Kotlin",
+      "link": "https://engineering.zalando.com/tags/kotlin.html",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "OpenAPI (Swagger)",
+      "link": "https://engineering.zalando.com/tags/openapi.html",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Python",
+      "link": "https://engineering.zalando.com/tags/python.html",
+      "active": true,
+      "moved": 0
+    },
       {
         "quadrant": 0,
         "ring": 3,
         "label": "Clojure",
+        "link": "https://engineering.zalando.com/tags/clojure.html",
         "active": true,
         "moved": 0
       },
       {
-        "quadrant": 1,
-        "ring": 0,
-        "label": "Spring Boot",
-        "active": true
-      },
-      {
-        "quadrant": 1,
-        "ring": 0,
-        "label": "Maven",
-        "active": true
-      },
-      {
-        "quadrant": 1,
-        "ring": 0,
-        "label": "Gradle",
-        "active": true
-      },
-      {
-        "quadrant": 1,
-        "ring": 0,
-        "label": "Yarn",
-        "active": true
-      },
-      {
-        "quadrant": 1,
-        "ring": 0,
-        "label": "NPM",
-        "active": true
-      },
-      {
         "quadrant": 0,
-        "ring": 2,
+        "ring": 0,
         "label": "Go",
+        "link": "https://engineering.zalando.com/tags/golang.html",
         "active": true,
         "moved": 0
       },
@@ -427,134 +477,186 @@ radar_visualization({
         "quadrant": 0,
         "ring": 0,
         "label": "GraphQL",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 0,
-        "ring": 3,
-        "label": "Haskell",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 0,
-        "ring": 0,
-        "label": "Java",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 0,
-        "ring": 0,
-        "label": "JavaScript",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 0,
-        "ring": 0,
-        "label": "TypeScript",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 0,
-        "ring": 0,
-        "label": "Angular",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 1,
-        "ring": 3,
-        "label": "IOnic",
-        "active": true
-      },
-      {
-        "quadrant": 0,
-        "ring": 0,
-        "label": "NodeJS",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 0,
-        "ring": 0,
-        "label": "NestJS",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 0,
-        "ring": 0,
-        "label": "OpenAPI (Swagger)",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 0,
-        "ring": 0,
-        "label": "Python",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 0,
-        "ring": 2,
-        "label": "R",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 0,
-        "ring": 3,
-        "label": "Rust",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 0,
-        "ring": 0,
-        "label": "Scala",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 0,
-        "ring": 0,
-        "label": "Swift",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 0,
-        "ring": 2,
-        "label": "Kotlin",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 0,
-        "ring": 0,
-        "label": "Rave",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 0,
-        "ring": 0,
-        "label": "SAP",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 0,
-        "ring": 0,
-        "label": "AMTAL & LLAMA",
+        "link": "https://engineering.zalando.com/tags/graphql.html",
         "active": true,
         "moved": 0
       }
+          {
+      "quadrant": 0,
+      "ring": 3,
+      "label": "Clojure",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Spring Boot",
+      "active": true
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Maven",
+      "active": true
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Gradle",
+      "active": true
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Yarn",
+      "active": true
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "NPM",
+      "active": true
+    },
+    {
+      "quadrant": 0,
+      "ring": 2,
+      "label": "Go",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "GraphQL",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 3,
+      "label": "Haskell",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Java",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "JavaScript",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "TypeScript",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Angular",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 3,
+      "label": "IOnic",
+      "active": true
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "NodeJS",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "NestJS",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "OpenAPI (Swagger)",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Python",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 2,
+      "label": "R",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 3,
+      "label": "Rust",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Scala",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Swift",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 2,
+      "label": "Kotlin",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Rave",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "SAP",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "AMTAL & LLAMA",
+      "active": true,
+      "moved": 0
+    }
     ]
   //ENTRIES
 });
@@ -567,7 +669,7 @@ radar_visualization({
 <h3>What is the Tech Radar?</h3>
 
 <p>
-The Zalando Tech Radar is a list of technologies, complemented by an assessment result, called <em>ring assignment</em>. We use four rings with the following semantics:
+The Flight Tech Radar is a list of technologies, complemented by an assessment result, called <em>ring assignment</em>. We use four rings with the following semantics:
 </p>
 
 <ul>
