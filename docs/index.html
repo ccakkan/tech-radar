@@ -24,10 +24,10 @@ fetch('./config.json').then(function(response) {
 }).then(function(data) {
   radar_visualization({
     repo_url: "https://github.com/zalando/tech-radar",
-    title: "Zalando Tech Radar",
+    title: "Flight Tech Radar",
     date: data.date,
     quadrants: [
-      { name: "Languages" },
+      { name: "Languages & Frameworks" },
       { name: "Infrastructure" },
       { name: "Datastores" },
       { name: "Data Management" },
@@ -52,7 +52,9 @@ fetch('./config.json').then(function(response) {
 <h3>What is the Tech Radar?</h3>
 
 <p>
-The Zalando Tech Radar is a list of technologies, complemented by an assessment result, called <em>ring assignment</em>. We use four rings with the following semantics:
+The Flight Tech Radar is based on Zalando Tech Radar and a list of technologies, complemented by an assessment result,
+called <em>ring assignment</em>.
+We use four rings with the following semantics:
 </p>
 
 <ul>
